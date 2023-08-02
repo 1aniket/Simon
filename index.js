@@ -4,7 +4,7 @@ let userPattern=[];
 let buttonColors=["red", "blue", "green", "yellow"];
 let userChoosenColor;
 let gameChoosenColor;
-let audios = ["/sounds/green.mp3" ,"/sounds/red.mp3" , "/sounds/yellow.mp3" , "/sounds/blue.mp3" ];
+let audios = ["sounds/green.mp3" ,"sounds/red.mp3" , "sounds/yellow.mp3" , "sounds/blue.mp3" ];
 let lvl=0;
 let flag=0;
 let maxScore=0;
