@@ -16,7 +16,7 @@ $("#start").on("click",function(){
     if(flag===0)
     {
         $("#start").fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
-        let audio = new Audio("/sounds/start.mp3");
+        let audio = new Audio("sounds/start.mp3");
         audio.play();
         setTimeout(function(){
             nextSequence();
